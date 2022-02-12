@@ -1,0 +1,40 @@
+/* Navigation Bar */
+.navbar{
+    flex-direction: column;
+}
+
+.navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+/* Home Section */
+.home{
+    height: 370px;
+    padding: 3px 30px;
+}
+
+.home::before{
+    height: 60%;
+}
+
+.home p{
+    font-size: 13px;
+}
+
+/* Offer Section */
+@media (max-width: 1068px){
+    .offers{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width: 768px){
+    .offers{
+        grid-template-columns: 1fr;
+    }
+
+    .offers .offer{
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+}
