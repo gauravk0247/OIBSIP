@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #d1e3f0;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: white;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+#tempCalc label{
+    font-size: 30px;
+}
+
+#temp {
+    background-color: rgb(211, 238, 235);
+    color: orangered;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#temp_diff {
+    background-color: rgb(211, 238, 235);
+    color: orangered;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+#resultContainer {
+    font-size: 35px;
+}
+
+button{
+    background-color: orangered;
+    color: white;
+    font-size: 22px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: 2px solid orangered;
+}
+
+button:hover{
+    font-weight: bold;
+    background-color: white;
+    color: orangered;
+}
